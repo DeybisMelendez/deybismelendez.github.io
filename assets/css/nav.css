@@ -1,9 +1,19 @@
 nav {
-    font-style: bold;
     align-items: center;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    padding-bottom: 5px;
+    border-bottom: 5px solid whitesmoke;
 }
-
-nav a.active, a:hover {
-    color: yellowgreen;
+@media screen and (max-width:600px) {
+    nav {
+        flex-direction: column;
+    }
+}
+nav a {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: large;
+    font-weight: bold;
 }

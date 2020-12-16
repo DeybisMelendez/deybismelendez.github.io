@@ -1,6 +1,10 @@
-- name: Home
+- name: BLOG
   link: /
-- name: Contacto
+- name: CONTACTO
   link: /contacto.html
-- name: Sobre mi
+- name: SOBRE MI
   link: /about.html
+- name: JUEGOS
+  link: /juegos.html
+- name: CURSOS
+  link: /cursos.html

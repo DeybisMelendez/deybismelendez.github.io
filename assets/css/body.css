@@ -1,5 +1,6 @@
 body {
     background-color: black;
-    color: whitesmoke;
+    color: rgb(216, 216, 216);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-items: center;
 }

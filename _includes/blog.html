@@ -1,0 +1,9 @@
+<section>
+    {% for post in paginator.posts %}
+    <article>
+        <a href="{{post.url}}"> 
+            <p><b>{{post.title |upcase}}</b> - {{post.date | date_to_string}}</p>
+        </a>
+    </article>
+    {% endfor %}
+</section>

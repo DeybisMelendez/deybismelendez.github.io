@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Tutorial Jekyll para principiantes
 thumbnail: 
 ---

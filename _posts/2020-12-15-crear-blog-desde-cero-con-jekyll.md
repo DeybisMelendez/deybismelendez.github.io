@@ -14,13 +14,17 @@ Es necesario tener instalado git, un editor de código como Visual Studio Code, 
 
 Lo primero que debemos hacer es instalar Ruby. Para el caso de Linux con el comando:
 
-`sudo apt-get install ruby-full build-essential zlib1g-dev`
+```
+sudo apt-get install ruby-full build-essential zlib1g-dev
+```
 
 ## 2. Instalar Jekyll y Bundler
 
 Una vez instalado Ruby, instalamos Jekyll y bundler con el comando:
 
-`gem install jekyll bundler`
+```
+gem install jekyll bundler
+```
 
 ## 3. Crear repositorio en Github
 
@@ -40,27 +44,37 @@ _site/
 
 Nos ubicamos en la terminal donde queramos trabajar el sitio web y clonamos:
 
-```git clone https://github.com/usuario/turepositorio.com```
+```
+git clone https://github.com/usuario/turepositorio.com
+```
 
 ## 5. Crear proyecto Jekyll para Github Pages
 
 Nos ubicamos en la carpeta del repositorio y en la terminal ejecutamos:
 
-```bundle init```
+```
+bundle init
+```
 
 Esto nos creará un archivo llamado Gemfile, lo abrimos y añadimos la siguiente línea:
 
-```gem "github-pages", group: :jekyll_plugins```
+```
+gem "github-pages", group: :jekyll_plugins
+```
 
 ahora en la terminal ejecutamos:
 
-```bundle```
+```
+bundle
+```
 
 ## 6. Ejecutamos en local el sitio
 
 Ahora ya puedes ejecutar el sitio en tu repositorio local con el comando:
 
-```bundle exec jekyll serve```
+```
+bundle exec jekyll serve
+```
 
 Ahora verás algo como esto en el localhost:
 
