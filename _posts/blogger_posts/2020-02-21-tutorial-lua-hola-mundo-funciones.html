@@ -1,0 +1,14 @@
+---
+layout: post
+title: 'Tutorial Lua: Empezando con Hola Mundo y funciones'
+date: '2020-02-21T11:01:00.001-06:00'
+author: Deybis A. Melendez Vargas
+tags:
+- tutorial
+- Lua
+modified_time: '2020-02-21T11:08:52.061-06:00'
+blogger_id: tag:blogger.com,1999:blog-5503112308634825503.post-4009104919929886665
+blogger_orig_url: https://www.deybismelendez.com/2020/02/tutorial-lua-hola-mundo-funciones.html
+---
+
+<h2>Hola mundo</h2>El primer programa con el que siempre se inicia es el Hola Mundo, así que veamos el código:<br /><pre><code class="lua">print("Hola mundo!")</code></pre><br />Esto lo puedes guardar en un archivo *.lua y ejecutarlo con lua tuArchivo.lua, recuerda que la ejecución depende de cómo tengas instalado lua, en algunos casos puede ser lua5.3 tuArchivo.lua (lua[version]) o bien ubicacion/de/lua ubicacion/de/tuArchivo.lua<br /><h2>Funciones</h2>Te darás cuenta que hay una estructura en la línea de código, print es una función.<br />Las funciones son un conjunto de código que se ejecuta con una llamada, en este caso print() es la llamada a esa función, el "Hola mundo!" es el argumento que le pasamos a esa función, es decir, le pedimos a Lua que ejecute la función print con el argumento "Hola mundo!", las funciones pueden requerir ninguna, una o varios argumentos para ejecutarse, de lo contrario puede generar un error, por eso es necesario tener en cuenta si una función requiere argumentos.<br /><span style="color: red;">Siempre las funciones van acompañadas de () y dentro de los paréntesis van sus argumentos.</span><br /><h3>Ejemplo de función</h3><pre><code class="lua">function saluda()<br />    print("Hola!")<br />end</code></pre>Para crear una función se utiliza la palabra reservada <b>function</b>, y la palabra reservada <b>end</b> para indicar que el código de la función termina ahí. Puedes colocar mas funciones dentro de una función, si guardas esa función y la ejecutas no pasará nada, esto es porque creaste la función pero no la llamaste.<br /><pre><code class="lua">function saluda()<br />    print("Hola!")<br />end<br />saluda()</code></pre>Aquí hemos creado una función y luego la llamamos, como lo hacemos con print, ahora si ejecutas esto el código te imprimirá "Hola!" sin las comillas.<br />Los argumentos los veremos mas adelante. <br /><h2>Ejercicio propuesto</h2>Todo en un mismo archivo.lua: <br /><ol><li>Crea una función con nombre comoEstas que imprima "Hola, ¿Cómo estas?"</li><li>Crea una función con nombre bienYTu que imprima "Bien, ¿Y tú?"</li><li>Crea una función con nombre saludos que ejecute las dos funciones anteriores e imprime todo en pantalla.</li></ol><ol></ol>

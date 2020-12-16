@@ -1,0 +1,9 @@
+nav {
+    font-style: bold;
+    align-items: center;
+    width: 100%;
+}
+
+nav a.active, a:hover {
+    color: yellowgreen;
+}
