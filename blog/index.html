@@ -1,11 +1,9 @@
 ---
 layout: default
 title: blog
-pagination:
-  enabled: true
 ---
 
-<div class="center">
+<div>
     {% for post in paginator.posts %}
     <a class="btn btn-outline-light" href="{{post.url}}">{{ post.title }} - {{ post.date | date_to_string }}</a><br><br>
   {% endfor %}
