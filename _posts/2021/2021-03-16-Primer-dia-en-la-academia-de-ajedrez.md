@@ -2,6 +2,7 @@
 layout: post
 title: Primer día en la academia de ajedrez
 ---
+{% include canvaschess.html %}
 
 Ayer fue mi primer día en la academia de ajedrez, vimos temas básicos sobre el ajedrez, sobre como se mueven las piezas, el valor de las piezas, principios de apertura y mates básicos. Luego jugamos partidas blitz para practicar.
 
@@ -39,11 +40,16 @@ Nos dijeron que jugaramos aperturas con e4 para empezar, siguiendo los principio
 
 # Partidas jugadas
 
-Como fue en blitz, no anoté ni grabé ninguna partida, pero si recuerdo bien una de ellas, ya que me puse en aprietos muy pronto, sin embargo logré remontar, intenté recordar cómo jugamos:
+Como fue en blitz, no anoté ni grabé ninguna partida, pero si recuerdo bien una de ellas, ya que me puse en aprietos muy pronto, sin embargo logré remontar, intenté recordar cómo jugamos, yo jugué con negras:
 
-<div style="width:590px;height:420px;border:1px solid black;position:relative"><a style="position:absolute;top:2px;right:4px;font:normal normal normal 8pt arial,helvetica,sans-serif;color:white" href="http://www.caissa.com/" target="_blank">Play Online Chess</a><iframe id="cwvif_1615949933" name="cwvif_1615949933" width="100%" height="100%" frameborder="0" scrolling="no"></iframe><form id="cwvfm_1615949933" method="post" action="http://www.caissa.com/htbin/chessview" target="cwvif_1615949933"><input type="hidden" id="cwvpd_1615949933" name="data" value="" /></form></div><div id="cwvpg_1615949933" style="display:none">[Event "Challenge"]<br />[Site "Academia de Ajedrez Alcaldia de Managua"]<br />[Date "2021.03.16"]<br />[Round ""]<br />[White "Oponente"]<br />[Black "Deybis Melendez"]<br />[Result "0-1"]<br />[WhiteELO ""]<br />[BlackELO ""]<br />[Termination "Deybis gana por jaque mate"]<br /><br />1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Ng5 Nxe4 5. Nxf7 Qf6 6. O-O Bc5 7. Nxh8<br />Nxf2 8. Qe2 Ne4+ 9. Kh1 Ng3+ 10. hxg3 Qh6+ 11. Qh5+ Qxh5# 0-1</div><script type="text/javascript">document.getElementById("cwvpd_1615949933").value=document.getElementById("cwvpg_1615949933").innerHTML;document.getElementById("cwvfm_1615949933").submit();</script>
+<script>
+    var viewer = new CHESS.PgnViewer({
+        pgn_text: '%5BSite%20%22Academia%20Ajedrez%20Alcaldia%20Managua%22%5D%0A%5BDate%20%222021.03.15%22%5D%0A%5BWhite%20%22Oponente%22%5D%0A%5BBlack%20%22Deybis%20Melendez%22%5D%0A%5BResult%20%220-1%22%5D%0A%5BTermination%20%22Oponente%20won%20by%20checkmate%22%5D%0A1.%20e4%20e5%202.%20Nf3%20Nc6%203.%20Bc4%20Nf6%204.%20Ng5%20Nxe4%205.%20Nxf7%20Qf6%206.%20O-O%20Bc5%207.%20Nxh8%20Nxf2%208.%20Qe2%20Ne4%2B%209.%20Kh1%20Ng3%2B%2010.%20hxg3%20Qh6%2B%2011.%20Qh5%2B%20Qxh5%23%200-1',
+        piece_set: 'https://s3.amazonaws.com/canvas-chess/pieces/merida'
+    });
+</script>
 
-Investigando un poco descubrí que la variante que jugamos se llama (Ataque Fegatello)[https://es.wikipedia.org/wiki/Defensa_de_los_dos_caballos] o ataque del hígado frito xD.
+Investigando un poco descubrí que la variante que jugamos se llama [Ataque Fegatello](https://es.wikipedia.org/wiki/Defensa_de_los_dos_caballos){:.link-light} o ataque del hígado frito xD.
 
 La partida fue a 5 minutos, por lo que hay errores por montón, pero me pareció bonita la combinación, excepto que después analizando mi partida vi que era mejor 4... Axe4 en lugar de 4...Cxe4 que es mas floja, se realiza la misma combinación sin realizar el jaque a la descubierta. Obviamente el blanco pudo defender mejor sacrificando la torre.
 
@@ -52,5 +58,7 @@ Yo suelo jugar 3...Ac5 entrando en la línea principal de la italiana, pero esta
 Algunas fotos que tomamos:
 
 ![foto 1](/assets/img/academia-ajedrez-dia-1-1.jpeg){:.img-fluid}
+
 ![foto 2](/assets/img/academia-ajedrez-dia-1-2.jpeg){:.img-fluid}
+
 ![foto 3](/assets/img/academia-ajedrez-dia-1-3.jpeg){:.img-fluid}
