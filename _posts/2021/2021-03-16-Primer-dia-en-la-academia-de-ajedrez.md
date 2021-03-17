@@ -55,6 +55,8 @@ La partida fue a 5 minutos, por lo que hay errores por montón, pero me pareció
 
 Yo suelo jugar 3...Ac5 entrando en la línea principal de la italiana, pero esta vez quise jugar con la variante de la defensa de los dos caballos con 3...Cf6. No me esperaba la jugada 4. Cg5 (ataque fegatello) amenazando ataque doble, aunque no es la primera vez que me lo aplican. En el momento que jugué Cxe4 pensé que no era la mejor jugada y que yo estaba perdiendo por el ataque doble, luego investigando ví que la jugada principal es jugar d5 directamente, yo pensé que si el blanco decide capturar el caballo, luego jugaría d5 atacando al alfil y caballo recuperando pieza, quise aventarme a jugar mas agresivo pensando en que mi rival podría cometer el error de jugar materialista y así fue porque decidió capturar el peón con el caballo, que según stockfish era mucho mejor capturar con el alfil quitandome el enroque.
 
+La Mildred ha jugado muy bien ese día, hemos estado jugando de vez en cuando en clase de arte y en chess.com y ha estado estudiando conmigo aperturas y algunos motivos tacticos, me sorprendió mucho ver que le ganó a Nelson Córdoba por tiempo y a Rafael Vargas practicamente le capturó todas sus piezas. Sin duda ella me va a superar pronto.
+
 Algunas fotos que tomamos:
 
 ![foto 1](/assets/img/academia-ajedrez-dia-1-1.jpeg){:.img-fluid}
