@@ -1,0 +1,48 @@
+a {
+    color: #4fc3f7;
+    text-decoration: none;
+}
+a:hover {
+    color: #039be5;
+    text-decoration: none;
+}
+    h1,h2,h3,h4,h5,h6 {
+    color: #b3e5fc;
+}
+article > ul > li {
+    list-style-type: circle!important;
+}
+article > p > a {
+    text-decoration: underline;
+}
+article > img {
+    width: 30vw;
+    height: auto;
+}
+table,th,td {
+    border: 1px solid #e1f5fe
+}
+th {
+    background-color: #01579b;
+    color: #b3e5fc;
+}
+
+.fa {
+    padding: 10px;
+    font-size: xx-large;
+    width: xx-large;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+pre {
+    background-color: #424242;
+    font-size: small;
+    padding: 10px;
+}

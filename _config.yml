@@ -1,13 +1,28 @@
 plugins:
-#  - jekyll-paginate-v2
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-seo-tag
-permalink: /:year/:month/:title.html
-exclude:
-  - Gemfile
-  - Gemfile.lock
 
-paginate: 10
+permalink: /:year/:month/:title.html
+
+# default excludes
+exclude:
+- .sass-cache/
+- .jekyll-cache/
+- gemfiles/
+- Gemfile
+- Gemfile.lock
+- node_modules/
+- vendor/bundle/
+- vendor/cache/
+- vendor/gems/
+- vendor/ruby/
+
+# overrides your excluded items configuration and the default include array ([".htaccess"])
+include:
+  - .htaccess
+  - node_modules/uglifier/index.js
+
+paginate: 30
 paginate_path: "/blog/:num/"
