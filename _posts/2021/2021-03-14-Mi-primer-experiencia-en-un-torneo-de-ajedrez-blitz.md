@@ -31,15 +31,15 @@ Un par de vídeos que encontré sobre el evento:
 
 Se jugaron 5 partidas, solo gané una, y empaté la última, las otras 3 las perdí por tiempo :(
 
-![Foto 1](https://i.postimg.cc/JHqZd4sm/academia-ajedrez-1.jpg)
+![Foto 1](https://i.postimg.cc/Z0kHnWZ9/academia-ajedrez-1.jpg)
 
 Foto mía jugando mi primer partida.
 
-![Foto 2](https://i.postimg.cc/7JDSVTYm/academia-ajedrez-2.jpg)
+![Foto 2](https://i.postimg.cc/Vv04zqyQ/academia-ajedrez-2.jpg)
 
 De izquierda a derecha, Nelson Cordoba, yo y Kamila Gutierrez.
 
-![Foto 3](https://i.postimg.cc/KktnB5F1/academia-ajedrez-3.jpg)
+![Foto 3](https://i.postimg.cc/sXNwFnN4/academia-ajedrez-3.jpg)
 
 Con Nelson esperando para jugar el torneo.
 
