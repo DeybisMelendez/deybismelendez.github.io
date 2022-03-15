@@ -1,5 +1,4 @@
-domain: deybismelendez.com
-url: https://deybismelendez.com
+title: deybismelendez.com
 
 plugins:
   - jekyll-feed
