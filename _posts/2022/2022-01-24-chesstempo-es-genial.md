@@ -14,18 +14,18 @@ Cuando comencé a jugar ajedrez regularmente utilizaba únicamente plataformas c
 3. Tiene el modo "Adivina la jugada", esto yo lo conozco como ajedrez solitario y también conozco un libro llamado "Usted juega" que tiene la misma dinámica, el objetivo es que repasas una partida modelo jugada a jugada como si tal la estuvieras jugando, en algún punto te pide que adivines la siguiente jugada, esto ayuda a entrenar la estrategia. Al inicio solo aparecen 2 partidas para practicar, pero si añades el libro Chess Fundamentals de Capablanca la cantidad de partidas disponibles aumenta.
 4. Tiene una valoración elo para la táctica, finales y adivina la jugada por separado. Con esto puedes ver donde debes mejorar.
 
-![Captura-de-pantalla-2022-01-25-13-51-08.png](https://postimg.cc/VSNpv7qp)
+![Captura-de-pantalla-2022-01-25-13-51-08.png](https://i.postimg.cc/Jh3LTvGr/Captura-de-pantalla-2022-01-25-13-51-08.png)
 
 *Nota: Las categorías son explicadas abajo.*
 
 5. Tiene una opción para añadir objetivos, esto es genial para mantener una motivación y llevar un buen ritmo de entrenamiento. Yo prefiero poner objetivos semanales.
 
-![Captura-de-pantalla-2022-01-24-09-33-37.png](https://postimg.cc/G88k4r8V)
+![Captura-de-pantalla-2022-01-24-09-33-37.png](https://i.postimg.cc/XJxxDYVj/Captura-de-pantalla-2022-01-24-09-33-37.png)
 
 6. Tiene opciones de Estudiante/Entrenador (en versión de pago), es decir, puedes ponerte como entrenador y añadir estudiantes, mandarles objetivos y ver sus resultados, yo no uso esto pero me parece genial.
 7. Tiene entrenador de aperturas, puedes crear tu propio repertorio jugada a jugada y luego entrenarlo con repetición espaciada, yo prefiero usar chessable que ya tiene cursos gratuitos sobre aperturas, pero igual esta plataforma tiene esta opción muy interesante. Posiblemente la termine utilizando también para crear líneas de referencias.
 
-![Captura-de-pantalla-2022-01-25-13-55-15.png](https://postimg.cc/mtzQL71j)
+![Captura-de-pantalla-2022-01-25-13-55-15.png](https://i.postimg.cc/4Nww15JD/Captura-de-pantalla-2022-01-25-13-55-15.png)
 
 
 ## Elos
