@@ -59,8 +59,8 @@ La Mildred ha jugado muy bien ese día, hemos estado jugando de vez en cuando en
 
 Algunas fotos que tomamos:
 
-![foto 1](/assets/img/academia-ajedrez-dia-1-1.jpeg){:.img-fluid}
+![foto 1](https://i.postimg.cc/zLsCyQmm/academia-ajedrez-dia-1-1.jpg)
 
-![foto 2](/assets/img/academia-ajedrez-dia-1-2.jpeg){:.img-fluid}
+![foto 2](https://i.postimg.cc/B8L5Q0Vc/academia-ajedrez-dia-1-2.jpg)
 
-![foto 3](/assets/img/academia-ajedrez-dia-1-3.jpeg){:.img-fluid}
+![foto 3](https://i.postimg.cc/K1sr2zJ8/academia-ajedrez-dia-1-3.jpg)
