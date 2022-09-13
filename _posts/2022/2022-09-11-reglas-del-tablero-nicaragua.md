@@ -32,4 +32,4 @@ Hice una encuesta para saber como juegan mis amigos y familiares cercanos, cabe 
 
 ## Disposición inicial del juego usando tapas de plástico
 
-[![index.jpg](https://i.postimg.cc/yxCKyLTP/index.jpg)](https://postimg.cc/qhwWkXSh)
+![index.jpg](https://i.postimg.cc/yxCKyLTP/index.jpg){:.responsive-img}

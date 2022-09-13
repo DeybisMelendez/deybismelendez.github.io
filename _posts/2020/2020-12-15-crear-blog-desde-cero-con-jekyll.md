@@ -78,7 +78,7 @@ bundle exec jekyll serve
 
 Ahora verás algo como esto en el localhost:
 
-![Captura-de-pantalla-2020-12-15-16-30-22.png](https://i.postimg.cc/d1v9Zd0w/Captura-de-pantalla-2020-12-15-16-30-22.png)
+![Captura-de-pantalla-2020-12-15-16-30-22.png](https://i.postimg.cc/d1v9Zd0w/Captura-de-pantalla-2020-12-15-16-30-22.png){:.responsive-img}
 
 ## 7. Actualizamos el repositorio en github
 

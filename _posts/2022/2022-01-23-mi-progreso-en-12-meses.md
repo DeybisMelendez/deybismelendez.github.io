@@ -22,15 +22,15 @@ Con el tiempo desarrollé mi propio plan de entrenamiento que explico [aquí](/2
 
 A finales de diciembre me comentaron que en enero se jugaría la primera fase del campeonato nacional absoluto de Nicaragua, es decir, el torneo de tercera división, el torneo fue a un ritmo de 60 minutos finish, decidí participar para valorar mi fuerza aún tomando en cuenta que en diciembre aflojé bastante. A pesar de todo obtuve 3.5 pts de 6. 2/2 victorias con blancas y 1.5/4 con negras. Obtuve un performance de 1464 elo FIDE. **¡Ya estoy a 400 puntos de mi objetivo!**.
 
-![Jugando el torneo](https://i.postimg.cc/Hxtvd8hG/ndice.jpg)
+![Jugando el torneo](https://i.postimg.cc/Hxtvd8hG/ndice.jpg){:.responsive-img}
 
 Mi progreso en Chess.com (Partidas rápidas)
 
-![Chess.com](https://i.postimg.cc/Hx77zWYK/Captura-de-pantalla-2022-01-23-20-53-39.png)
+![Chess.com](https://i.postimg.cc/Hx77zWYK/Captura-de-pantalla-2022-01-23-20-53-39.png){:.responsive-img}
 
 Mi progreso en Lichess.org (Partidas blitz)
 
-![Lichess.org](https://i.postimg.cc/x8DN4rqd/Captura-de-pantalla-2022-01-23-20-56-33.png)
+![Lichess.org](https://i.postimg.cc/x8DN4rqd/Captura-de-pantalla-2022-01-23-20-56-33.png){:.responsive-img}
 
 No sé por qué en Chess.com me va tan mal en blitz, este año me propondré mejorar eso.
 

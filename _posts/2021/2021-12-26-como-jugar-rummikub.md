@@ -127,28 +127,28 @@ C = Celeste, A = Amarillo, B = Negro, R = Rojo. - (guión) = separación.
 
 #### Ejercicio 1
 
-![Ejercicio 1](https://i.postimg.cc/FzpMNz71/ndice.jpg)
+![Ejercicio 1](https://i.postimg.cc/FzpMNz71/ndice.jpg){:.responsive-img}
 
 #### Ejercicio 2
 
-![Ejercicio 2](https://i.postimg.cc/jjfBCZLp/ndice2.png)
+![Ejercicio 2](https://i.postimg.cc/jjfBCZLp/ndice2.png){:.responsive-img}
 
 #### Ejercicio 3
 
-![Ejercicio 3](https://i.postimg.cc/QNqGp40s/ndice3.jpg)
+![Ejercicio 3](https://i.postimg.cc/QNqGp40s/ndice3.jpg){:.responsive-img}
 
 #### Ejercicio 4
 
-![Ejercicio 4](https://i.postimg.cc/dVpzqztR/ndice4.jpg)
+![Ejercicio 4](https://i.postimg.cc/dVpzqztR/ndice4.jpg){:.responsive-img}
 
 #### Ejercicio 5
 
-![Ejercicio 5](https://i.postimg.cc/SNZBPnBv/ndice5.jpg)
+![Ejercicio 5](https://i.postimg.cc/SNZBPnBv/ndice5.jpg){:.responsive-img}
 
 #### Ejercicio 6
 
-![Ejercicio 6](https://i.postimg.cc/m22xVY59/ndice6.jpg)
+![Ejercicio 6](https://i.postimg.cc/m22xVY59/ndice6.jpg){:.responsive-img}
 
 Si con pocas fichas se pone interesante imagina ahora una partida con muchas combinaciones en la mesa, las posibilidades son muchas.
 
-![Mesa de juego](https://i.postimg.cc/FH7MX9ms/Whats-App-Image-2021-12-26-at-5-55-41-PM.jpg)
+![Mesa de juego](https://i.postimg.cc/FH7MX9ms/Whats-App-Image-2021-12-26-at-5-55-41-PM.jpg){:.responsive-img}

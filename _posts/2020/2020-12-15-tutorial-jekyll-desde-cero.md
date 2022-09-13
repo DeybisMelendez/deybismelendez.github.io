@@ -90,7 +90,7 @@ Bienvenido a mi sitio web!
 
 Si ejecutamos el comando `bundle exec jekyll serve` y revisas en el enlace que te proporciona podrás ver algo parecido a esto:
 
-![Captura de pantalla](https://i.postimg.cc/C1sddnZy/Captura-de-pantalla-2020-12-15-17-04-58.png)
+![Captura de pantalla](https://i.postimg.cc/C1sddnZy/Captura-de-pantalla-2020-12-15-17-04-58.png){:.responsive-img}
 
 Ahora puedes utilizar el layout default para crear el resto de tus páginas.
 
@@ -126,7 +126,7 @@ Ahora podrás acceder a los posts desde la estructura url `tuurl.com/año/mes/di
 
 Este ejemplo se vería así:
 
-![Captura de pantalla](https://i.postimg.cc/3w40nwdV/Captura-de-pantalla-2020-12-15-17-41-59.png)
+![Captura de pantalla](https://i.postimg.cc/3w40nwdV/Captura-de-pantalla-2020-12-15-17-41-59.png){:.responsive-img}
 
 ## Includes
 

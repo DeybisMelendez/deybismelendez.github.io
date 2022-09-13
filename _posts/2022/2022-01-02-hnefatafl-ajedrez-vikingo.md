@@ -25,7 +25,7 @@ Las casillas centrales son hostiles, lo que significa que pueden reemplazar una 
 
 ### Configuración inicial
 
-![Configuración del juego](https://i.postimg.cc/Hxbm07VZ/hnefatafl.png)
+![Configuración del juego](https://i.postimg.cc/Hxbm07VZ/hnefatafl.png){:.responsive-img}
 
 Hay un total de 24 piezas negras, 12 piezas blancas y un Rey. El rey blanco se sitúa en el centro.
 
@@ -49,11 +49,11 @@ El rey y las casillas del rey puede participar en las capturas
 
 Una fila de dos o más piezas a lo largo del borde del tablero se pueden capturar juntas, encerrando esa fila con piezas.
 
-![Shieldwall](https://i.postimg.cc/fL74Snr1/shieldwall.png)
+![Shieldwall](https://i.postimg.cc/fL74Snr1/shieldwall.png){:.responsive-img}
 
 También es posible usar las casillas restringidas como apoyo.
 
-![Shieldwall2](https://i.postimg.cc/Yqn5Wxd2/Captura-de-pantalla-2022-01-02-13-55-12.png)
+![Shieldwall2](https://i.postimg.cc/Yqn5Wxd2/Captura-de-pantalla-2022-01-02-13-55-12.png){:.responsive-img}
 
 ### Las blancas ganan
 
@@ -71,7 +71,7 @@ El rey no puede ser capturado en el borde del tablero si aún quedan piezas blan
 
 Otra forma de ganar es encerrando a todas las piezas y el rey, ya que impiden que el rey escape.
 
-![Encierro del Rey](https://i.postimg.cc/pXsBVGqC/Captura-de-pantalla-2022-01-02-14-18-29.png)
+![Encierro del Rey](https://i.postimg.cc/pXsBVGqC/Captura-de-pantalla-2022-01-02-14-18-29.png){:.responsive-img}
 
 ### Otras reglas
 
@@ -105,7 +105,7 @@ Las blancas por tanto, deben evitar que el negro logre una formación de bloqueo
 
 A diferencia del ajedrez, no es fácil encontrar con quien jugar este juego, afortunadamente poco a poco se está dando a conocer otra vez y ya comienzan a existir sitios donde jugar en internet, uno de estos sitios es Litafl que al parecer su nombre referencia a Lichess.
 
-[Click aquí para jugar en Litafl](https://litafl.com/tafl)
+[Click aquí para jugar en Litafl](https://litafl.com/tafl){:.responsive-img}
 
 ## Análisis Personal
 
