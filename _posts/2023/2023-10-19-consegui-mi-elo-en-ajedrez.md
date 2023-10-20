@@ -23,7 +23,7 @@ En este torneo obtuve un performance de 1476 sin meter la última ronda que solo
 
 A partir de aquí decidí prepararme para mi siguiente torneo, quiero llegar al próximo torneo de tercera división con mucha mas fuerza, y comencé a entrenar para eso, este año comencé a utilizar Aimchess y ya estaba estudiando bastante el libro de Partidas Selectas de Botvinnik. Elegí a Botvinnik como mi jugador modelo por casualidad, y vaya que me ha servido.
 
-![https://i.postimg.cc/3xdJQMYx/324018142-563467739031989-2614433962674769259-n.jpg]
+![Jugando en el torneo](https://i.postimg.cc/3xdJQMYx/324018142-563467739031989-2614433962674769259-n.jpg)
 
 ## Torneo Julio Ramirez de Arellano in Memoriam 2023
 
