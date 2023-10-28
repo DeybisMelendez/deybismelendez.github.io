@@ -1,27 +1,28 @@
-<div class="center">
-    {% if paginator.total_pages > 1 %}
-    <ul class="pagination">
-      {% if paginator.previous_page %}
-        <li class="waves-effect"><a class="grey-text text-lighten-2" href="{{ paginator.previous_page_path | relative_url }}"><i class="material-icons">chevron_left</i></a></li>
-      {% else %}
-        <li class="disabled"><a class="grey-text text-darken-3" href="#!"><i class="material-icons">chevron_left</i></a></li>
-      {% endif %}
-    
-      {% for page in (1..paginator.total_pages) %}
-        {% if page == paginator.page %}
-          <li class="active light-blue"><a href="#!">{{page}}</a></li>
-        {% elsif page == 1 %}
-          <li class="waves-effect"><a class="grey-text text-lighten-2" href="{{ '/blog/' | relative_url }}">{{ page }}</a></li>
-        {% else %}
-          <li class="waves-effect"><a class="grey-text text-lighten-2"href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a></li>
-        {% endif %}
-      {% endfor %}
-    
-      {% if paginator.next_page %}
-        <li class="waves-effect"><a class="grey-text text-lighten-2" href="{{ paginator.next_page_path | relative_url }}"><i class="material-icons">chevron_right</i></a></li>
-      {% else %}
-        <li class="disabled"><a class="grey-text text-darken-3" href="#!"><i class="material-icons">chevron_right</i></a></li>
-      {% endif %}
-    </ul>
-    {% endif %}
-    </div>
+<div class="pagination">
+	{% if paginator.total_pages > 1 %} {% if paginator.previous_page %}
+	<a href="{{ paginator.previous_page_path | relative_url }}"
+		><i class="fa-solid fa-arrow-left"></i
+	></a>
+	{% else %}
+	<a href="#!" class="disabled"
+		><i class="fa-solid fa-arrow-left disabled"></i
+	></a>
+	{% endif %} {% for page in (1..paginator.total_pages) %} {% if page ==
+	paginator.page %}
+	<a class="disabled" href="#!">{{page}}</a>
+	{% elsif page == 1 %}
+	<a href="{{ '/blog/' | relative_url }}">{{ page }}</a>
+	{% else %}
+	<a href="{{ site.paginate_path | relative_url | replace: ':num', page }}"
+		>{{ page }}</a
+	>
+	{% endif %} {% endfor %} {% if paginator.next_page %}
+	<a href="{{ paginator.next_page_path | relative_url }}">
+    <i class="fa-solid fa-arrow-right"></i>
+  </a>
+	{% else %}
+	<a href="#!" class="disabled"></a>
+		<i class="fa-solid fa-arrow-right disabled"></i>
+</a>
+	{% endif %} {% endif %}
+</div>

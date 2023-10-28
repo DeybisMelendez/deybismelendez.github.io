@@ -2,10 +2,14 @@
 layout: default
 title: Blog
 ---
+
 {% include pagination.html %}
-<div class="container flow-text">
-  {% for post in paginator.posts %}
-    <p>{{ post.date | date_to_string }} - <a href="{{post.url}}">{{ post.title }}</a></p>
-  {% endfor %}
+<div class="container">
+	{% for post in paginator.posts %}
+	<p>
+		{{ post.date | date_to_string }} -
+		<a href="{{post.url}}">{{ post.title }}</a>
+	</p>
+	{% endfor %}
 </div>
 {% include pagination.html %}
