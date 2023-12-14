@@ -189,8 +189,12 @@ tr:nth-child(even) {
 /* CODE STYLES*/
 pre {
 	background-color: var(--bg2-color);
-	font-size: small;
+	font-family: monospace;
 	padding: 0.5rem;
+	overflow-x: scroll;
+}
+figure {
+	margin: 0;
 }
 
 footer {
