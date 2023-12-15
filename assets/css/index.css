@@ -186,13 +186,7 @@ tr:nth-child(even) {
 .fa:hover {
 	color: var(--link-hover-color);
 }
-/* CODE STYLES*/
-pre {
-	background-color: var(--bg2-color);
-	font-family: monospace;
-	padding: 0.5rem;
-	overflow-x: scroll;
-}
+
 figure {
 	margin: 0;
 }

@@ -5,6 +5,8 @@ layout: post
 
 El problema puede encontrarse aquí: [Advent of Code 2023 día 1](https://adventofcode.com/2023/day/1).
 
+Yo estoy resolviendo los ejercicios con Lua 5.4 actualmente, por lo que las soluciones estarán explicadas sobre ese lenguaje de programación.
+
 ## Parte 1
 
 Para resolver este ejercicio se necesita iterar a través de cada línea de la entrada del rompecabezas.
@@ -122,3 +124,5 @@ end
 print("Parte 1:", answer1())
 print("Parte 2:", answer2())
 {% endhighlight %}
+
+Puede encontrar mi código completo aquí: [Github](https://github.com/DeybisMelendez/AdventOfCode).
