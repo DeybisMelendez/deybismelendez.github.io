@@ -78,16 +78,14 @@ En la parte 2 te cambia las condiciones, ahora te pide determinar la mínima can
 
 {% highlight lua %}
 local function answer2()
-    local input = readFile("02input.txt")
-    local lines = splitString(input, lineDelimiter)
+    local lines = getInput()
     local game = ""
     local sets = {}
     local cubes = {}
     local cube = {}
     local cubeNumber = 0
     local cubeColor = ""
-    -- declaramos la cuenta de los cubos en cero
-    local minCube = { 
+    local minCube = {
         blue = 0,
         red = 0,
         green = 0
@@ -97,26 +95,20 @@ local function answer2()
     for _, line in ipairs(lines) do
         game = splitString(line, colonDelimiter)
         sets = splitString(game[2], semiColonDelimiter)
-        -- hay que restablecer el mínimo en cada juego
         minCube.blue = 0
         minCube.red = 0
         minCube.green = 0
-
         for _, set in ipairs(sets) do
             cubes = splitString(set, commaDelimiter)
-
             for _, cubeCount in ipairs(cubes) do
                 cube = splitString(cubeCount, spaceDelimiter)
                 cubeNumber = tonumber(cube[1])
                 cubeColor = cube[2]
-                -- Aquí está el detalle, hay que comparar el número del cubo con el mínimo actual
-                -- y quedarnos con el número mayor
                 if cubeNumber > minCube[cubeColor] then
                     minCube[cubeColor] = cubeNumber
                 end
             end
         end
-        -- Vamos sumando en cada iteración el múltiplo de los cubos
         result = result + minCube.blue * minCube.red * minCube.green
     end
     return result
