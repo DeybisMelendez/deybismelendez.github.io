@@ -1,6 +1,7 @@
 ---
 title: Mi plan de entrenamiento de 2023
 layout: post
+tag: ajedrez
 ---
 
 Como ya había comentado en mi post "Mi plan de entrenamiento de ajedrez", investigué un plan de entrenamiento que pudiera seguir por mi propia cuenta para mejorar mi juego. Actualmente continúo con gran parte de lo mencionado en el libro _"How to study chess on your own" del GM Davorin Kuljasevic_.

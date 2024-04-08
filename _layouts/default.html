@@ -5,28 +5,21 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-		/>
-		<link
 			href="https://fonts.googleapis.com/css?family=Noto+Serif"
 			rel="stylesheet"
 		/>
 
-		<link rel="stylesheet" href="/assets/css/index.css" />
+		<link rel="stylesheet" href="/assets/css/blog.css" />
 		<link rel="stylesheet" href="/assets/css/rouge.base16.monokai.dark.css" />
 		{% feed_meta %} {% seo %}
 		<title>{{ page.title }}</title>
 	</head>
-	<body class="grey darken-4 grey-text text-lighten-2">
-		{% include nav.html %}
-		<hr class="separator container" />
-		{{ content }}
-		<hr class="separator container" />
-		{% include footer.html %}
-		<script
-			src="https://kit.fontawesome.com/01d28a2163.js"
-			crossorigin="anonymous"
-		></script>
+	<body>
+		<div class="container">
+			{% include nav.html %}
+			{{ content }}
+			{% include footer.html %}
+		</div>
+		<script src="https://kit.fontawesome.com/01d28a2163.js" crossorigin="anonymous"></script>
 	</body>
 </html>

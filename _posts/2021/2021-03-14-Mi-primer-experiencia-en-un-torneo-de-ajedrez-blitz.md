@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Mi primer experiencia en un torneo de ajedrez blitz
+tag: ajedrez
 ---
 
 Desde el año pasado he estado jugando bastante al ajedrez, a mi siempre me ha gustado jugar pero como es un juego para dos no lo jugaba mucho, sin embargo, luego de ver el gambito de dama comencé a explorar sitios web para jugar y di con chess.com. Ahí supe qué tan malo era al ajedrez, pues no alcanzaba los 1000 elo.

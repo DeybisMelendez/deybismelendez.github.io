@@ -1,6 +1,7 @@
 ---
 title: Reglas del juego de tablero en Nicaragua
 layout: post
+tag: juegos de mesa
 ---
 
 El **juego de Tablero** es una variante del juego de [Damas](https://es.wikipedia.org/wiki/Damas) (en inglés Checkers) que se juega tradicionalmente en Nicaragua. Algunas reglas son ligeramente diferentes al resto de variantes y reglas oficiales.

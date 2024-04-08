@@ -1,6 +1,7 @@
 ---
 title: Como jugar Rummikub
 layout: post
+tag: juegos de mesa
 ---
 
 [Rummikub](https://rummikub.com/) es un grupo de juegos de [rummy](https://es.wikipedia.org/wiki/Rummy) de fichas, que se juega con un conjunto de 106 fichas numeradas y de colores. Fueron introducidos en Europa Occidental y América por el inventor de juegos israelí [Ephraim Hertzano](https://en.wikipedia.org/wiki/Ephraim_Hertzano).

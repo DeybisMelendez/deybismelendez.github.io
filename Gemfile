@@ -4,17 +4,15 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-# gem "rails"
-
 gem "jekyll"
-gem 'rouge'
-# gem "github-pages", "~> 212", group: :jekyll_plugins
-group :jekyll_plugins do
-  gem "github-pages", "~> 228"
-#  gem "jekyll-paginate-v2", ">= 3.0"
-  gem "jekyll-paginate"
-  gem 'jekyll-sitemap'
-  gem 'jekyll-feed'
-  gem 'jekyll-seo-tag'
-end
+gem "rouge"
+gem "faraday-retry"
 gem "webrick", "~> 1.8"
+
+group :jekyll_plugins do
+  gem "github-pages", "~> 231"
+  gem "jekyll-paginate"
+  gem "jekyll-sitemap"
+  gem "jekyll-feed"
+  gem "jekyll-seo-tag"
+end

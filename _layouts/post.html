@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<main class="main container">
-	<article>
-		<h1 class="title">{{ page.title }}</h1>
-		<time>{{ page.date | date_to_string }}</time>
+<main>
+	<article class="post">
+		<p class="post__date">{{ page.date | date_to_string }}</p>
+		<h1 class="post__title">{{ page.title }}</h1>
 		{{ content }}
 	</article>
 </main>

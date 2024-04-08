@@ -1,28 +1,35 @@
 <div class="pagination">
-	{% if paginator.total_pages > 1 %} {% if paginator.previous_page %}
-	<a href="{{ paginator.previous_page_path | relative_url }}"
-		><i class="fa-solid fa-arrow-left"></i
-	></a>
-	{% else %}
-	<a href="#!" class="disabled"
-		><i class="fa-solid fa-arrow-left disabled"></i
-	></a>
-	{% endif %} {% for page in (1..paginator.total_pages) %} {% if page ==
-	paginator.page %}
-	<a class="disabled" href="#!">{{page}}</a>
-	{% elsif page == 1 %}
-	<a href="{{ '/blog/' | relative_url }}">{{ page }}</a>
-	{% else %}
-	<a href="{{ site.paginate_path | relative_url | replace: ':num', page }}"
-		>{{ page }}</a
-	>
-	{% endif %} {% endfor %} {% if paginator.next_page %}
-	<a href="{{ paginator.next_page_path | relative_url }}">
-    <i class="fa-solid fa-arrow-right"></i>
-  </a>
-	{% else %}
-	<a href="#!" class="disabled"></a>
-		<i class="fa-solid fa-arrow-right disabled"></i>
-</a>
-	{% endif %} {% endif %}
+	{% if paginator.total_pages > 1 %}
+
+		{% if paginator.previous_page %}
+			<a href="{{ paginator.previous_page_path | relative_url }}" class="pagination__link">
+				<i class="pagination__icon fa-solid fa-arrow-left"></i>
+			</a>
+		{% else %}
+			<a href="#!" class="pagination__link pagination__link--disabled">
+				<i class="pagination__icon fa-solid fa-arrow-left"></i>
+			</a>
+		{% endif %}
+
+		{% for page in (1..paginator.total_pages) %}
+			{% if page == paginator.page %}
+				<a class="pagination__link pagination__link--active" href="#!">{{page}}</a>
+			{% elsif page == 1 %}
+				<a href="{{ '/blog/' | relative_url }}" class="pagination__link">{{ page }}</a>
+			{% else %}
+				<a href="{{ site.paginate_path | relative_url | replace: ':num', page }}" class="pagination__link">{{ page }}</a>
+			{% endif %}
+		{% endfor %}
+
+		{% if paginator.next_page %}
+			<a href="{{ paginator.next_page_path | relative_url }}" class="pagination__link">
+				<i class="pagination__icon fa-solid fa-arrow-right"></i>
+			</a>
+		{% else %}
+			<a href="#!" class="pagination__link pagination__link--disabled">
+				<i class="pagination__icon fa-solid fa-arrow-right"></i>
+			</a>
+		{% endif %}
+
+	{% endif %}
 </div>

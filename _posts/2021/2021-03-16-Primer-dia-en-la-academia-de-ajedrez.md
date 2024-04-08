@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Primer día en la academia de ajedrez
+tag: ajedrez
 ---
 {% include canvaschess.html %}
 

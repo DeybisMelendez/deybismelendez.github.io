@@ -1,6 +1,7 @@
 ---
 title: Conseguí mi primer Elo Fide en 2023
 layout: post
+tag: ajedrez
 ---
 
 Ha pasado mas de año y medio desde mi última actualización de mi progreso en ajedrez, en todo el año 2022 dediqué la mayor parte del tiempo a culminar mi carrera de instructor artístico, por lo que no progresé como hubiera deseado.

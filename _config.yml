@@ -20,14 +20,16 @@ exclude:
     - vendor/cache/
     - vendor/gems/
     - vendor/ruby/
+    - run.sh
+    - LICENSE
+    - README.md
 
 # overrides your excluded items configuration and the default include array ([".htaccess"])
 include:
     - .htaccess
     - node_modules/uglifier/index.js
-exclude:
-    - run.sh
-paginate: 30
+
+paginate: 10
 paginate_path: "/blog/:num/"
 
 highlighter: rouge

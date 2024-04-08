@@ -5,12 +5,8 @@ title: Home
 
 # ¡Bienvenido a mi blog!
 
-Soy **Deybis Antonio Melendez Vargas**, vivo en Managua, Nicaragua.
+Soy **Deybis Antonio Melendez Vargas**, un apasionado estudiante de Ingeniería en Computación en UNI, ubicado en Managua, Nicaragua.
 
-Éste es mi blog personal donde escribo sobre lo que me gusta, mis experiencias de vida y todo lo que llame mi atención.
+En este espacio, comparto mis experiencias, conocimientos y pasiones. Actualmente, estoy enfocado en fortalecer mis habilidades en **Django y desarrollo web**.
 
-Este sitio lo programé con Jekyll y Github Pages, si te interesa un sitio web similar puedes contactarme.
-
-## Acerca de mi
-
-Soy un egresado de la carrera de Administración de Empresas en UCN, aficionado a la programación, instructor artístico egresado de la Escuela Nacional de Artes Plásticas, me encanta el ajedrez y los videojuegos. También he estudiado diseño gráfico, contabilidad y guitarra. Me gusta mucho aprender cosas nuevas, soy muy autodidacta.
+Soy un entusiasta del aprendizaje autodidacta y disfruto explorar nuevas áreas y tecnologías. Si buscas un profesional comprometido, creativo y en constante evolución, ***¡No dudes en contactarme!***
