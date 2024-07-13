@@ -20,6 +20,8 @@ Decidí hacer una IA de Tres en Raya sencillo porque me entró curiosidad conoce
 
 El juego contiene 255,168 estados posibles, de los cuales el primer jugador gana 131,184, el segundo jugador gana 77,904 y 46,080 son empates.
 
+Me llamó mucho la atención que en el Depth 8 y 9 da la misma cantidad de nodos, pero esto puede ser porque la última jugada solo sirve para definir el resultado final de la partida (empate o victoria para el primer jugador). Si suponemos una posición cualquiera en la séptima jugada, quedarán dos casillas disponibles para rellenar, la última jugada no suma mas a los nodos porque solo queda una jugada por realizar. El contador por tanto a partir de la séptima jugada sumará 2 posiciones posibles por cada estado, y en la octava jugada solo sumaría 1 por cada estado (que son 2), entonces la suma es la misma. En pocas palabras, la octava jugada define a la novena jugada de manera implícita.
+
 Para resolver este juego se puede utilizar el algoritmo Minimax, en este caso he utilizado la variante Negamax que es mas simplificada pero no menos complejo.
 
 Para la representación del juego decidí utilizar Bitboards para minimizar los recursos necesarios, aunque hubiera bastado con utilizar arrays, ya que el juego es bastante corto.
