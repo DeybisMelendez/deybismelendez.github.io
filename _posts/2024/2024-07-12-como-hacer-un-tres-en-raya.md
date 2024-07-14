@@ -13,7 +13,7 @@ Decidí hacer una IA de Tres en Raya sencillo porque me entró curiosidad conoce
 |        3        | 504     | ---     |  ---      |
 |        4        | 3024    | ---     |  ---      |
 |       5         |   15120 |   1440  |    ---    |
-|       6         |   561060|   1440  |    5328   |
+|       6         |   56160 |   1440  |    5328   |
 |       7         |  154944 |  49392  |   5328    |
 |       8         |  255168 |  49392  |   77904   |
 |       9         |  255168 |  131184 |   77904   |
@@ -22,9 +22,11 @@ El juego contiene 255,168 estados posibles, de los cuales el primer jugador gana
 
 Me llamó mucho la atención que en el Depth 8 y 9 da la misma cantidad de nodos, pero esto puede ser porque la última jugada solo sirve para definir el resultado final de la partida (empate o victoria para el primer jugador). Si suponemos una posición cualquiera en la séptima jugada, quedarán dos casillas disponibles para rellenar, la última jugada no suma mas a los nodos porque solo queda una jugada por realizar. El contador por tanto a partir de la séptima jugada sumará 2 posiciones posibles por cada estado, y en la octava jugada solo sumaría 1 por cada estado (que son 2), entonces la suma es la misma. En pocas palabras, la octava jugada define a la novena jugada de manera implícita.
 
-Para resolver este juego se puede utilizar el algoritmo Minimax, en este caso he utilizado la variante Negamax que es mas simplificada pero no menos complejo.
+![Ejemplo de nodos en séptima jugada](https://i.postimg.cc/YSRrmKDQ/Captura-de-pantalla-2024-07-14-10-09-21.png)
 
-Para la representación del juego decidí utilizar Bitboards para minimizar los recursos necesarios, aunque hubiera bastado con utilizar arrays, ya que el juego es bastante corto.
+Para resolver este juego se puede utilizar el algoritmo [Minimax](https://en.wikipedia.org/wiki/Minimax), en este caso he utilizado la variante [negamax](https://en.wikipedia.org/wiki/Negamax) que es mas simplificada pero no menos complejo.
+
+Para la representación del juego decidí utilizar [bitboards](https://es.wikipedia.org/wiki/Bitboard) para minimizar los recursos necesarios, aunque hubiera bastado con utilizar arrays, ya que el juego es bastante corto.
 
 El programa lo desarrollé en javascript para luego hacer un minijuego en HTML. Puede encontrar el proyecto completo en [Github](https://github.com/DeybisMelendez/tres-en-raya). O probarlo directamente en este blog [aquí](https://deybismelendez.github.io/tres-en-raya/).
 
@@ -64,9 +66,9 @@ class TicTacToeAI {
 
 ## Bitboards
 
-Los [bitboards](https://es.wikipedia.org/wiki/Bitboard) son números binarios donde cada bit representa la ocupación de una casilla en el tablero, en este caso se requieren 9 bits para representar un tablero de Tres en Raya y un tablero separado para cada jugador. De esta manera, se puede utilizar operadores bit a bit para realizar jugadas, deshacer jugadas, validar victorias, etc.
+Los [bitboards](https://es.wikipedia.org/wiki/Bitboard) son números binarios donde cada bit representa la ocupación de una casilla en el tablero, en este caso se requieren 9 bits para representar un tablero de Tres en Raya y un tablero separado para cada jugador, en total 18 bits, se podría utilizar un solo bitboard de 18 bits para todo el tablero, pero decidí mantener separado ambos jugadores para no hacer mas complicado el desarrollo. De esta manera, se puede utilizar operadores bit a bit para realizar jugadas, deshacer jugadas, validar victorias, etc.
 
-La representación de números binarios en Javascript se escribe con "0b" y luego el número binario.
+La representación de [números binarios en Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Numbers_and_dates#binary_numbers) se escribe con "0b" y luego el número binario, esto facilita mucho escribir las posiciones pero en otros lenguajes de programación se puede utilizar directamente números enteros o hexadecimales para la representación de los bitboards.
 
 ![Orden de los bits](https://i.postimg.cc/fyFjQ6w4/Captura-de-pantalla-2024-07-12-15-23-56.png)
 
